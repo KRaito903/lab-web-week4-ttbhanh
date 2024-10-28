@@ -59,3 +59,33 @@ a {
 img {
   width: 50%;
 }
+
+.content ul {
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 3px;
+  list-style-type: none;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.left-li {
+  text-align: right;
+  width: 30%;
+}
+
+.content ul li {
+  padding: 3px;
+  min-height: 30px;
+}
+
+.right-li {
+  text-align: left;
+  width: 50%;
+}
+
+h3 {
+  color: white;
+}
