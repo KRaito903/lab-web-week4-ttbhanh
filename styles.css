@@ -11,10 +11,14 @@ body {
 main {
   display: flex;
   padding: 50px;
+  gap: 10px;
 }
 
 nav {
   width: 30%;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 3px;
 }
 
 .content {
@@ -23,6 +27,9 @@ nav {
   justify-items: center;
   align-items: center;
   flex-direction: column;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 3px;
 }
 
 .menu ul {
